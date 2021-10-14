@@ -1,1 +1,1 @@
-# murnion-haskell-task-2
+# fibonacci-with-extras
