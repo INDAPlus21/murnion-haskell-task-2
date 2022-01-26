@@ -6,7 +6,7 @@ fibs = 1 : 1 : zipWith (+) fibs (tail fibs)
 fib 0 = 0
 fib n = fibs !! (n-1)
 
-consonant = "aeiou"
+consonant = "aeiouy"
 rovarsprak :: [Char] -> [Char]
 rovarsprak x = concatMap (\c -> if isConsonant c then [c, 'o', c] else [c]) x
 isConsonant :: Char -> Bool
